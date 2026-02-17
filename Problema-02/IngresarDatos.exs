@@ -6,7 +6,7 @@ defmodule EntradaDatos do
     |>Util.mostrar_mensaje()
   end
 
-  def generar_mensaje(frase) do
+  defp generar_mensaje(frase) do
     "Su mensaje es: #{frase}"
   end
 
