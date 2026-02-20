@@ -4,8 +4,8 @@ defmodule Util do
     |> IO.puts()
   end
 
-  def ingresar(frase, :texto) do
-    frase
+  def ingresar(mensaje, :texto) do
+    mensaje
     |> IO.gets()
     |> String.trim()
   end
