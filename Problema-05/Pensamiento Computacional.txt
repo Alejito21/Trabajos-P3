@@ -1,0 +1,17 @@
+Abstracción:
+Qué se solicita: Programa que gestione la validación para acceder a la plataforma.
+Qué info es relevante: Nombre del usuario, Edad del usuario, Si tiene o no credenciales y Números de intentos fallidos.
+
+Descomposición:
+Qué acciones se requieren para resolverlo:
+    *Ingresar Nombre
+    *Ingresar  Edad
+    *Verificar credenciales
+    *Mostrar mensaje
+
+Reconocimiento de Patrones:
+    *ingresar(:texto)
+    *ingresar(:entero)
+    *mostrar_mensaje()
+
+Alejandro Rivera - Maria Lucia Aguilera
