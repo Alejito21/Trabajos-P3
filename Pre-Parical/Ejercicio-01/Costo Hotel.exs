@@ -1,0 +1,5 @@
+defmodule CostoHotel do
+
+end
+
+
