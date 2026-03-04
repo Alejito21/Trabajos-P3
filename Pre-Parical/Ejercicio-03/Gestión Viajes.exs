@@ -46,7 +46,7 @@ defmodule GestionViajes do
     precio_maleta = if cargo_maleta == 1, do: 45000, else: 0
     precio_proteccion = if cargo_proteccion ==1, do: 12000, else: 0
     cargos_totales = precio_silla + precio_maleta + precio_proteccion
-    {cargos_totales, "El cargo de la maleta es obligatorio para el destino san_andres."}
+    {cargos_totales, "El cargo de la maleta es obligatorio para el destino :san_andres."}
   end
 
   def calcular_cargo_total(destino, cargo_silla, cargo_maleta, cargo_proteccion) do
