@@ -106,7 +106,7 @@ defmodule RPG do
     IO.puts("│ Arma   : #{String.pad_trailing(p.arma,   19)}│")
     IO.puts("└─────────────────────────────┘")
   end
-
+4
   # ──────────────────────────────────────────────────────────────────────────────────────────
   # Bucle principal del juego: enfrentamientos contra enemigos hasta derrotar a 3 o morir
   # ──────────────────────────────────────────────────────────────────────────────────────────
