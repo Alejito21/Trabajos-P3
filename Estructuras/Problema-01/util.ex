@@ -40,6 +40,15 @@ Módulo con funciones que se reutilizan
     end
   end
 
+  def ingresar(mensaje, :boolean) do
+    valor =
+      mensaje
+      |>ingresar(:texto)
+      |>String.downcase()
+
+      Enum.member?(["s", "si", "sí"], valor)
+  end
+
   def mostrar_error(mensaje) do
     IO.puts(:standard_error, mensaje)
   end
