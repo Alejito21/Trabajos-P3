@@ -1,16 +1,8 @@
 defmodule Estructura do
   def main do
-    "Ingrese los datos de los clientes: "
+    "Ingrese los datos del cliente: "
     |>Cliente.ingresar(:clientes)
-    |>Cliente.generar_mensaje_cliente(&generar_mensaje/1)
-    |>Util.mostrar_mensaje()
-  end
-
-  def generar_mensaje(cliente) do
-    altura =
-      cliente.altura
-      |> Float.round(2)
-    "Hola #{cliente.nombre}, tu edad es de #{cliente.edad} años y " <> "tienes una altura de #{altura} metros."
+    |> Cliente.escribir_csv("Daltonimo.csv")
   end
 end
 Estructura.main()
