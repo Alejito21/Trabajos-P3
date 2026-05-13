@@ -1,0 +1,4 @@
+codigo,nombre,categoria,precio,cantidad,fecha_ingreso
+P001,Leche Entera,Lácteos,3.5e3,40,2025-05-01
+P002,Pan Integral,Panadería,2.8e3,45,2025-05-10
+P003,Queso Doble Crema,Lácteos,8.0e3,20,2025-05-10
